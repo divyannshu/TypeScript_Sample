@@ -1,0 +1,40 @@
+/* #root { */
+/* max-width: 1280px; */
+/* width: 100%; */
+/* margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+/* Since we have used MUI library, we cna make use of styled components to create a style of our own
+We can also makw use of styleZOverrides to override the style provided by default
+This enables us to have a consistent component throughout our module having our style. 
+Normal CSS makes it difficult and consistent styling becomes a bit tough*/

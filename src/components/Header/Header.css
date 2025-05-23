@@ -1,0 +1,11 @@
+.nav-button {
+  /* font-weight: 200; */
+  font-size: large;
+  margin-left: 12px;
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+/* .nav-button:hover {
+  background-color: #1976d2;
+  color: #ffffff;
+} */
