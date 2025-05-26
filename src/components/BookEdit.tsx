@@ -30,6 +30,7 @@ function BookEdit({ book, onSubmit }: BookEditProps) {
   } = useForm<BookFormInputs>({
     defaultValues: {
       title: book.title,
+      description: book.description,
     },
   });
 
